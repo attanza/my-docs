@@ -15,7 +15,7 @@
                 <v-flex xs12 style="overflow-x:auto;">
                   <h3 class="mb-3">Decription: </h3>
                   <VueMarkdown :source="item.request.description"/>
-                  <h3 class="mb-3">Header</h3>
+                  <!-- <h3 class="mb-3">Header</h3>
                   <table v-if="item.request.header" class="table is-fullwidth">
                     <tr v-if="item.request.auth">
                       <th width="20%">Authorization</th>
@@ -25,9 +25,9 @@
                       <th>{{ header.key }}</th>
                       <td>{{ header.value }}</td>
                     </tr>
-                  </table>
+                  </table> -->
                 </v-flex>
-                <v-flex xs12 style="overflow-x:auto;" class="mt-4">
+                <v-flex v-if="item.request.body && (item.request.body.raw || item.request.body.formdata)" xs12 style="overflow-x:auto;" class="mt-4">
                   <h3 class="mb-3">Request Body: </h3>
                   <div v-if="item.request.body.raw">
                     <pre><code>{{ parseJson(item.request.body.raw) }}</code></pre>

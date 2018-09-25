@@ -7,15 +7,15 @@
       fixed
       app
     >
+      <v-toolbar color="grey lighten-4">
+        <v-list>
+          <v-list-tile>
+            <img src="/img/logo.png" alt="" width="80%">
+          </v-list-tile>
+        </v-list>
+      </v-toolbar>
+      <v-divider/>
       <v-list>
-        <v-toolbar flat="flat">
-          <v-list>
-            <v-list-tile>
-              <img src="#" alt="" width="60%">
-            </v-list-tile>
-          </v-list>
-        </v-toolbar>
-
         <v-list-group
           v-for="(item, index) in items"
           :key="index"

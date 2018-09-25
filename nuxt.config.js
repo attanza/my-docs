@@ -3,18 +3,18 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "Langsung Jalan Api",
+    title: "Foodgasm Back End Wrapper",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        hid: "Langsung Jalan Api",
-        name: "Langsung Jalan Api",
-        content: "Langsung Jalan Api"
+        hid: "Foodgasm Back End Wrapper",
+        name: "Foodgasm Back End Wrapper",
+        content: "Foodgasm Back End Wrapper"
       }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/img/logo.png" },
+      { rel: "icon", type: "image/x-icon", href: "/img/fav.png" },
       {
         rel: "stylesheet",
         href:

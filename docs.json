@@ -2611,7 +2611,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"coupon\": \"4Z4LJNZD\",\n\t\"orderType\": \"2\",\n\t\"menus\": [\n\t\t{\n\t\t\t\"_id\": \"574c779c268dff5a0798afc4\",\n\t\t\t\"amount\": 1\n\t\t}\n\t],\n\t\"numOfPeople\": 1,\n\t\"paymentWith\": \"gopay\",\n\t\"maskedCard\": \"\",\n\t\"paymentCredential\": \"\",\n\t\"resto\": \"5b03d957610b2c03ffe5ff7f\",\n\t\"lat\": -6.195013783292462,\n\t\"lng\": 106.832587\n}"
+							"raw": "{\n  \"coupon\": \"4Z4LJNZD\",\n  \"orderType\": \"2\",\n  \"menus\": [{\n    \"_id\": \"574c779c268dff5a0798afc4\",\n    \"amount\": 1\n  }],\n  \"numOfPeople\": 1,\n  \"paymentWith\": \"gopay\",\n  \"maskedCard\": \"\",\n  \"paymentCredential\": \"\",\n  \"resto\": \"5b03d957610b2c03ffe5ff7f\",\n  \"lat\": -6.195013783292462,\n  \"lng\": 106.832587\n}\n"
 						},
 						"url": {
 							"raw": "{{baseUrl}}/vouchers",
@@ -2788,7 +2788,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"lat\":-6.211691,\n  \"lng\":106.830569,\n  \"resto\":\"5b03d957610b2c03ffe5ff7f\"\n}"
+							"raw": "{\n  \"lat\": -6.211691,\n  \"lng\": 106.830569,\n  \"resto\": \"5b03d957610b2c03ffe5ff7f\"\n}\n"
 						},
 						"url": {
 							"raw": "{{baseUrl}}/orders/delivery/price",
@@ -2931,7 +2931,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"coupon\": \"\",\n\t\"orderType\": \"3\",\n\t\"menus\": [\n\t\t{\n\t\t\t\"_id\": \"574c779c268dff5a0798afc4\",\n\t\t\t\"amount\": 1\n\t\t}\n\t],\n\t\"numOfPeople\": 1,\n\t\"paymentWith\": \"gopay\",\n\t\"maskedCard\": \"\",\n\t\"paymentCredential\": \"\",\n\t\"resto\": \"5682049e99022e432e6b968a\",\n    \"lat\": -6.194031,\n    \"lng\": 106.832589\n}"
+							"raw": "{\n  \"coupon\": \"\",\n  \"orderType\": \"3\",\n  \"menus\": [{\n    \"_id\": \"574c779c268dff5a0798afc4\",\n    \"amount\": 1\n  }],\n  \"numOfPeople\": 1,\n  \"paymentWith\": \"gopay\",\n  \"maskedCard\": \"\",\n  \"paymentCredential\": \"\",\n  \"resto\": \"5682049e99022e432e6b968a\",\n  \"lat\": -6.194031,\n  \"lng\": 106.832589\n}\n"
 						},
 						"url": {
 							"raw": "{{baseUrl}}/orders/price",
@@ -3076,7 +3076,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"coupon\": \"\",\n\t\"orderType\": \"2\",\n\t\"menus\": [\n\t\t{\n\t\t\t\"_id\": \"5b03da4d610b2c03ffe5ff86\",\n\t\t\t\"amount\": 1\n\t\t}\n\t],\n\t\"numOfPeople\": 1,\n\t\"paymentWith\": \"{{paymentProvider}}\",\n\t\"maskedCard\": \"{{dokuMaskedCard}}\",\n\t\"paymentCredential\": \"{{paymentCredential}}\",\n\t\"resto\": \"{{restoId}}\",\n    \"lat\": {{lat}},\n    \"lng\": {{long}},\n\t\"address\": \"Jl. Teuku Umar No.48, RT.1/RW.1, Gondangdia, Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350, Indonesia\",\n\t\"visitDate\": \"2018-07-30T15:20:00.00+0700\",\n\t\"note\": \"Tower 1, floor 2, no. 3\"\n}"
+							"raw": "{\n  \"coupon\": \"\",\n  \"orderType\": \"2\",\n  \"menus\": [{\n    \"_id\": \"5b03da4d610b2c03ffe5ff86\",\n    \"amount\": 1\n  }],\n  \"numOfPeople\": 1,\n  \"paymentWith\": \"{{paymentProvider}}\",\n  \"maskedCard\": \"{{dokuMaskedCard}}\",\n  \"paymentCredential\": \"{{paymentCredential}}\",\n  \"resto\": \"{{restoId}}\",\n  \"lat\": {{lat}},\n  \"lng\": {{long}},\n  \"address\": \"Jl. Teuku Umar No.48, RT.1/RW.1, Gondangdia, Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350, Indonesia\",\n  \"visitDate\": \"2018-07-30T15:20:00.00+0700\",\n  \"note\": \"Tower 1, floor 2, no. 3\"\n}\n"
 						},
 						"url": {
 							"raw": "{{baseUrl}}/orders",
@@ -3219,7 +3219,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"coupon\": \"\",\n\t\"orderType\": \"3\",\n\t\"menus\": [\n\t\t{\n\t\t\t\"_id\": \"5b03da4d610b2c03ffe5ff86\",\n\t\t\t\"amount\": 1\n\t\t}\n\t],\n\t\"numOfPeople\": 1,\n\t\"paymentWith\": \"gopay\",\n\t\"resto\": \"5b03d957610b2c03ffe5ff7f\",\n    \"lat\": -6.2345654,\n    \"lng\": 106.832588,\n\t\"address\": \"Jl. Teuku Umar No.48, RT.1/RW.1, Gondangdia, Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350, Indonesia\",\n\t\"visitDate\": \"2018-07-30T15:20:00.00+0700\",\n\t\"note\": \"Tower 1, floor 2, no. 3\"\n}\n"
+							"raw": "{\n  \"coupon\": \"\",\n  \"orderType\": \"3\",\n  \"menus\": [{\n    \"_id\": \"5b03da4d610b2c03ffe5ff86\",\n    \"amount\": 1\n  }],\n  \"numOfPeople\": 1,\n  \"paymentWith\": \"gopay\",\n  \"resto\": \"5b03d957610b2c03ffe5ff7f\",\n  \"lat\": -6.2345654,\n  \"lng\": 106.832588,\n  \"address\": \"Jl. Teuku Umar No.48, RT.1/RW.1, Gondangdia, Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350, Indonesia\",\n  \"visitDate\": \"2018-07-30T15:20:00.00+0700\",\n  \"note\": \"Tower 1, floor 2, no. 3\"\n}\n"
 						},
 						"url": {
 							"raw": "{{baseUrl}}/orders",
